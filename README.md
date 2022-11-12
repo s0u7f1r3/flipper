@@ -153,3 +153,63 @@ git submodule foreach git clean -ffdx
 
 git submodule foreach git fetch
 git submodule foreach git pull
+
+
+
+----
+
+
+
+root
+|--- repos
+     |--- Unleashed
+          |--- subbrute
+
+$ git show --oneline
+301757ab (HEAD -> subbrute) add honeywell subbrute protocol
+diff --git a/repos/Eng1n33r/unleashed-firmware b/repos/Eng1n33r/unleashed-firmware
+index 1d196b41..5288f507 160000
+--- a/repos/Eng1n33r/unleashed-firmware
++++ b/repos/Eng1n33r/unleashed-firmware
+@@ -1 +1 @@
+-Subproject commit 1d196b41e98387dd20ad4ce66c011ca9e9f443d7
++Subproject commit 5288f5072f259898db2f4a3cd2a9abd4041d7a93
+
+$ git -C repos/Eng1n33r/unleashed-firmware/ show --oneline
+5288f507 (HEAD -> dev) add honeywell subrute protocol
+diff --git a/applications/plugins/subbrute b/applications/plugins/subbrute
+index e5eb466c..dd68cda2 160000
+--- a/applications/plugins/subbrute
++++ b/applications/plugins/subbrute
+@@ -1 +1 @@
+-Subproject commit e5eb466c557fe35564d3f69cad9481bf43e71437
++Subproject commit dd68cda20415c2dc143e66567a220222a6e66f62
+
+$ git -C repos/Eng1n33r/unleashed-firmware/applications/plugins/subbrute show --oneline
+dd68cda (HEAD -> honeywell) add honeywell as known protocol
+diff --git a/subbrute_protocols.c b/subbrute_protocols.c
+index 4612413..f95dcdf 100644
+--- a/subbrute_protocols.c
++++ b/subbrute_protocols.c
+@@ -273,6 +273,7 @@ static const char* subbrute_protocol_file_types[] = {
+     [DoitrandFileProtocol] = "Doitrand",
+     [GateTXFileProtocol] = "GateTX",
+     [MagellanFileProtocol] = "Magellan",
++    [HoneywellFileProtocol] = "Honeywell",
+     [IntertechnoV3FileProtocol] = "Intertechno_V3",
+     [UnknownFileProtocol] = "Unknown"};
+ 
+diff --git a/subbrute_protocols.h b/subbrute_protocols.h
+index eeb3f34..966ecfb 100644
+--- a/subbrute_protocols.h
++++ b/subbrute_protocols.h
+@@ -17,6 +17,7 @@ typedef enum {
+     DoitrandFileProtocol,
+     GateTXFileProtocol,
+     MagellanFileProtocol,
++    HoneywellFileProtocol,
+     IntertechnoV3FileProtocol,
+     UnknownFileProtocol,
+     TotalFileProtocol,
+
+https://blog.zenika.com/2017/01/24/pull-request-demystifie/
