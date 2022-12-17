@@ -13,3 +13,21 @@
 [submodule "repos/UberGuidoZ/Marauder_BINs"]
 	path = repos/UberGuidoZ/Marauder_BINs
 	url = https://github.com/UberGuidoZ/Marauder_BINs.git
+[submodule "repos/FalsePhilosopher/badusb"]
+	path = repos/FalsePhilosopher/badusb
+	url = https://github.com/FalsePhilosopher/badusb
+[submodule "repos/FlipFrid"]
+	path = repos/FlipFrid
+	url = https://github.com/Ganapati/FlipFrid
+[submodule "repos/Flipper-IRDB"]
+	path = repos/Flipper-IRDB
+	url = https://github.com/logickworkshop/Flipper-IRDB
+[submodule "repos/RocketGod-git/Flipper_Zero"]
+	path = repos/RocketGod-git/Flipper_Zero
+	url = https://github.com/RocketGod-git/Flipper_Zero
+[submodule "repos/SkeletonMan03/FZEasyMarauderFlash"]
+	path = repos/SkeletonMan03/FZEasyMarauderFlash
+	url = https://github.com/SkeletonMan03/FZEasyMarauderFlash
+[submodule "repos/Brute-force-garage-and-hack-rf"]
+	path = repos/Brute-force-garage-and-hack-rf
+	url = https://github.com/Lucstay11/Brute-force-garage-and-hack-rf
