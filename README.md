@@ -213,3 +213,5 @@ index eeb3f34..966ecfb 100644
      TotalFileProtocol,
 
 https://blog.zenika.com/2017/01/24/pull-request-demystifie/
+
+https://github.com/DarkFlippers/unleashed-firmware/tree/a8b48771e47b5375c26154b85939cbcf63502189/applications/plugins/subbrute
