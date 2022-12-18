@@ -31,3 +31,6 @@
 [submodule "repos/Brute-force-garage-and-hack-rf"]
 	path = repos/Brute-force-garage-and-hack-rf
 	url = https://github.com/Lucstay11/Brute-force-garage-and-hack-rf
+[submodule "repos/s0u7f1r3/unleashed-firmware"]
+	path = repos/s0u7f1r3/unleashed-firmware
+	url = git@github.com:s0u7f1r3/unleashed-firmware.git
