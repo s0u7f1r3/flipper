@@ -16,7 +16,7 @@
 [submodule "repos/FalsePhilosopher/badusb"]
 	path = repos/FalsePhilosopher/badusb
 	url = https://github.com/FalsePhilosopher/badusb
-[submodule "repos/FlipFrid"]
+[submodule "repos/Ganapati/FlipFrid"]
 	path = repos/FlipFrid
 	url = https://github.com/Ganapati/FlipFrid
 [submodule "repos/Flipper-IRDB"]
